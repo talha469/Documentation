@@ -21,7 +21,7 @@ Following resources have been created under the group for VM
 | ovm-vnet   | Hosting virtual machine                              |
 
 <details>
-  <summary><h2>Setup IIS on VM</h2></summary>
+   <summary markdown="span" style="cursor:pointer;"><h2 style="margin:0;">Setup IIS on VM</h2></summary>
   
 
 
@@ -44,8 +44,7 @@ Following resources have been created under the group for VM
 </details>
 
 <details>
-  <summary><h2>Configure Network for Website Hosting</h2></summary>
-  
+   <summary markdown="span" style="cursor:pointer;"><h2 style="margin:0;">Configure Network for Website Hosting</h2></summary>
 
 On VM, if you will go to the http://localhost it will be working fine
 ![App Screenshot](https://github.com/talha469/Documentation/blob/main/Common/Media/IISLocal.png?raw=true)
