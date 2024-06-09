@@ -4,8 +4,9 @@
 A brief description of what this project does and who it's for
 
 
-
-## Azure Virtual Machine
+<details>
+   <summary markdown="span" style="cursor:pointer;"><h2 style="margin:0;"><h2 style="margin:0;"></h1>Azure Virtual Machine</h1></summary>
+  
 ![App Screenshot](https://github.com/talha469/Documentation/blob/main/Common/Media/VMSpecifications.png?raw=true)
 
 Following resources have been created under the group for VM
@@ -86,7 +87,7 @@ This ensure the connectivity on port 80
 
 </details>
 
-
+</details>
 
 ## Badges
 
