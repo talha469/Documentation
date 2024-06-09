@@ -5,7 +5,7 @@ A brief description of what this project does and who it's for
 
 
 <details>
-   <summary markdown="span" style="cursor:pointer;"><h2 style="margin:0;"><h2 style="margin:0;"></h1>Azure Virtual Machine</h1></summary>
+   <summary markdown="span" style="cursor:pointer;"><h2 style="margin:0;">Azure Virtual Machine<h2 style="margin:0;"></summary>
   
 ![App Screenshot](https://github.com/talha469/Documentation/blob/main/Common/Media/VMSpecifications.png?raw=true)
 
