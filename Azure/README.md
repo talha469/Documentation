@@ -1,11 +1,11 @@
 
 # Azure Services
 
-A brief description of how to configure and deploye dot NET project on VM Windows, Linux, with CLI and with Powershell
+A brief description of how to configure and deploy dot NET project on VM Windows, Linux
 
 
 <details>
-   <summary markdown="span" style="cursor:pointer;"><h2 style="margin:0;">Virtual Machine<h2 style="margin:0;"></summary>
+   <summary markdown="span" style="cursor:pointer;"><h2 style="margin:0;">Virtual Machine</h2></summary>
   
 ![App Screenshot](https://github.com/talha469/Documentation/blob/main/Common/Media/VMSpecifications.png?raw=true)
 
@@ -20,6 +20,10 @@ Following resources have been created under the group for VM
 | ovm616_z1  | Virtual network card for data transmission           |
 | disk       | Assigned virtual disk                                |
 | ovm-vnet   | Hosting virtual machine                              |
+
+<details>
+   <summary markdown="span" style="cursor:pointer;"><h2 style="margin:0;">Windows VM</h2></summary>
+  
 
 <details>
    <summary markdown="span" style="cursor:pointer;"><h2 style="margin:0;">Setup IIS on VM</h2></summary>
@@ -84,6 +88,8 @@ Add Inbound Security Rule
 ![App Screenshot](https://github.com/talha469/Documentation/blob/main/Common/Media/networking2.png?raw=true)
 
 This ensure the connectivity on port 80
+
+</details>
 
 </details>
 
