@@ -4,9 +4,23 @@
 A brief description of what this project does and who it's for
 
 
+
+
 ## Azure Virtual Machine
+![App Screenshot](https://github.com/talha469/Documentation/blob/main/Common/Media/VMSpecifications.png?raw=true)
 
+Following resources have been created under the group for VM
 
+# Resources for Virtual Machine Group
+
+| Resource   | Description                                          |
+|------------|------------------------------------------------------|
+| ovm        | Virtual Machine                                      |
+| ovm-ip     | Public IP address                                    |
+| ovm-nsg    | Firewall to restrict incoming/outgoing traffic       |
+| ovm616_z1  | Virtual network card for data transmission           |
+| disk       | Assigned virtual disk                                |
+| ovm-vnet   | Hosting virtual machine                              |
 
 
 ## Badges
