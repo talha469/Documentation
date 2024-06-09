@@ -1,3 +1,10 @@
+
+# Azure Services
+
+A brief description of what this project does and who it's for
+
+
+
 ## Azure Virtual Machine
 ![App Screenshot](https://github.com/talha469/Documentation/blob/main/Common/Media/VMSpecifications.png?raw=true)
 
@@ -35,9 +42,12 @@ Following resources have been created under the group for VM
 ![App Screenshot](https://github.com/talha469/Documentation/blob/main/Common/Media/3.png?raw=true)
 
 </details>
+
 <details>
    <summary markdown="span" style="cursor:pointer;"><h2 style="margin:0;">Configure Network for Website Hosting</h2></summary>
 
+
+### Configure Network for Website Hosting
 
 On VM, if you will go to the http://localhost it will be working fine
 ![App Screenshot](https://github.com/talha469/Documentation/blob/main/Common/Media/IISLocal.png?raw=true)
@@ -54,4 +64,35 @@ This ensure the connectivity on port 80
 
 </details>
 
+<details>
+   <summary markdown="span" style="cursor:pointer;"><h2 style="margin:0;">Deloying a Project on VM</h2></summary>
+
+
+### Configure Network for Website Hosting
+
+When you will start publishing through Azure in VS Studio, this error might happen
+![App Screenshot](https://github.com/talha469/Documentation/blob/main/Common/Media/error.png?raw=true)
+
+Go to the Overview -> Public IP -> Configuration
+make IP Static and assgn some DNS name as follows and save
+
+![App Screenshot](https://github.com/talha469/Documentation/blob/main/Common/Media/DNS.png?raw=true)
+
+Add Inbound Security Rule
+
+![App Screenshot](https://github.com/talha469/Documentation/blob/main/Common/Media/networking2.png?raw=true)
+
+This ensure the connectivity on port 80
+
+</details>
+
+
+
+## Badges
+
+[![MIT License](https://img.shields.io/badge/License-MIT-green.svg)](https://choosealicense.com/licenses/mit/)
+
+## Feedback
+
+If you have any feedback, please reach out to me at talhaarshad469@gmail.com
 
