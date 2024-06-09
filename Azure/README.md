@@ -11,15 +11,32 @@ A brief description of what this project does and who it's for
 
 Following resources have been created under the group for VM
 
+
 | Resource   | Description                                          |
 |------------|------------------------------------------------------|
 | ovm        | Virtual Machine                                      |
-| ovm-ip     | Public IP address for conneting to the VM                                   |
-| ovm-nsg    | Firewall to restrict incoming/outgoing traffic from VM      |
+| ovm-ip     | Public IP address                                    |
+| ovm-nsg    | Firewall to restrict incoming/outgoing traffic       |
 | ovm616_z1  | Virtual network card for data transmission           |
-|az204ovm_OsDisk_1_b490b020a46f417bb059a3b1618f602f      | will be assigned onto the machine                               |
+| disk       | Assigned virtual disk                                |
 | ovm-vnet   | Hosting virtual machine                              |
 
+### Setup IIS on VM
+1- Press win + R
+
+2- open "Server Manager"
+
+3- "Add roles and features"
+
+![App Screenshot](https://github.com/talha469/Documentation/blob/main/Common/Media/1.png?raw=true)
+
+4- Check Web Server IIS
+
+![App Screenshot](https://github.com/talha469/Documentation/blob/main/Common/Media/2.png?raw=true)
+
+5- Don't change anything until necessary and Install
+
+![App Screenshot](https://github.com/talha469/Documentation/blob/main/Common/Media/3.png?raw=true)
 
 ## Badges
 
