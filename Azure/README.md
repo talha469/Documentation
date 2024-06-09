@@ -14,7 +14,7 @@ Following resources have been created under the group for VM
 | Resource   | Description                                          |
 |------------|------------------------------------------------------|
 | ovm        | Virtual Machine                                      |
-| ovm-ip     | Public IP address                                    |
+| ovm-ip     | Public IP address for conneting to the VM                                   |
 | ovm-nsg    | Firewall to restrict incoming/outgoing traffic       |
 | ovm616_z1  | Virtual network card for data transmission           |
 | disk       | Assigned virtual disk                                |
