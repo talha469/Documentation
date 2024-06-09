@@ -21,7 +21,7 @@ Following resources have been created under the group for VM
 | ovm-vnet   | Hosting virtual machine                              |
 
 <details>
-  <summary><h3>Setup IIS on VM</h3></summary>
+  <summary><h2>Setup IIS on VM</h2></summary>
   
 
 
@@ -43,12 +43,14 @@ Following resources have been created under the group for VM
 
 </details>
 
-### Configure Network for Website Hosting
+<details>
+  <summary><h2>Configure Network for Website Hosting</h2></summary>
+  
 
 On VM, if you will go to the http://localhost it will be working fine
 ![App Screenshot](https://github.com/talha469/Documentation/blob/main/Common/Media/IISLocal.png?raw=true)
 
-
+</details>
 ## Badges
 
 [![MIT License](https://img.shields.io/badge/License-MIT-green.svg)](https://choosealicense.com/licenses/mit/)
