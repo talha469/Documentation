@@ -21,10 +21,10 @@ Following resources have been created under the group for VM
 | ovm-vnet   | Hosting virtual machine                              |
 
 <details>
-  <summary>Click me</summary>
+  ### <summary>Setup IIS on VM</summary>
   
 
-### Setup IIS on VM
+
 1- Press win + R
 
 2- open "Server Manager"
