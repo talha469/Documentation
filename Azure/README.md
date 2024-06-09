@@ -1,7 +1,7 @@
 
 # Azure Services
 
-A brief description of what this project does and who it's for
+A brief description of how to configure and deploye dot NET project on VM Windows, Linux, with CLI and with Powershell
 
 
 <details>
