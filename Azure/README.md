@@ -5,7 +5,6 @@ A brief description of what this project does and who it's for
 
 
 
-
 ## Azure Virtual Machine
 ![App Screenshot](https://github.com/talha469/Documentation/blob/main/Common/Media/VMSpecifications.png?raw=true)
 
@@ -20,6 +19,10 @@ Following resources have been created under the group for VM
 | ovm616_z1  | Virtual network card for data transmission           |
 | disk       | Assigned virtual disk                                |
 | ovm-vnet   | Hosting virtual machine                              |
+
+<details>
+  <summary>Click me</summary>
+  
 
 ### Setup IIS on VM
 1- Press win + R
@@ -37,6 +40,14 @@ Following resources have been created under the group for VM
 5- Don't change anything until necessary and Install
 
 ![App Screenshot](https://github.com/talha469/Documentation/blob/main/Common/Media/3.png?raw=true)
+
+</details>
+
+### Configure Network for Website Hosting
+
+On VM, if you will go to the http://localhost it will be working fine
+![App Screenshot](https://github.com/talha469/Documentation/blob/main/Common/Media/IISLocal.png?raw=true)
+
 
 ## Badges
 
