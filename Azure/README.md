@@ -11,8 +11,6 @@ A brief description of what this project does and who it's for
 
 Following resources have been created under the group for VM
 
-# Resources for Virtual Machine Group
-
 | Resource   | Description                                          |
 |------------|------------------------------------------------------|
 | ovm        | Virtual Machine                                      |
