@@ -35,12 +35,9 @@ Following resources have been created under the group for VM
 ![App Screenshot](https://github.com/talha469/Documentation/blob/main/Common/Media/3.png?raw=true)
 
 </details>
-
 <details>
    <summary markdown="span" style="cursor:pointer;"><h2 style="margin:0;">Configure Network for Website Hosting</h2></summary>
 
-
-### Configure Network for Website Hosting
 
 On VM, if you will go to the http://localhost it will be working fine
 ![App Screenshot](https://github.com/talha469/Documentation/blob/main/Common/Media/IISLocal.png?raw=true)
