@@ -21,7 +21,7 @@ Following resources have been created under the group for VM
 | ovm-vnet   | Hosting virtual machine                              |
 
 <details>
-  ### <summary>Setup IIS on VM</summary>
+  <summary><h3>Setup IIS on VM</h3></summary>
   
 
 
