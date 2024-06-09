@@ -1,10 +1,3 @@
-
-# Azure Services
-
-A brief description of what this project does and who it's for
-
-
-
 ## Azure Virtual Machine
 ![App Screenshot](https://github.com/talha469/Documentation/blob/main/Common/Media/VMSpecifications.png?raw=true)
 
@@ -46,17 +39,22 @@ Following resources have been created under the group for VM
 <details>
    <summary markdown="span" style="cursor:pointer;"><h2 style="margin:0;">Configure Network for Website Hosting</h2></summary>
 
+
+### Configure Network for Website Hosting
+
 On VM, if you will go to the http://localhost it will be working fine
 ![App Screenshot](https://github.com/talha469/Documentation/blob/main/Common/Media/IISLocal.png?raw=true)
 
+Go to the Network settings on Azure VM Portal 
+
+![App Screenshot](https://github.com/talha469/Documentation/blob/main/Common/Media/Networking.png?raw=true)
+
+Add Inbound Security Rule
+
+![App Screenshot](https://github.com/talha469/Documentation/blob/main/Common/Media/networking2.png?raw=true)
+
+This ensure the connectivity on port 80
+
 </details>
 
-
-## Badges
-
-[![MIT License](https://img.shields.io/badge/License-MIT-green.svg)](https://choosealicense.com/licenses/mit/)
-
-## Feedback
-
-If you have any feedback, please reach out to me at talhaarshad469@gmail.com
 
