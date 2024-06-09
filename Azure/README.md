@@ -17,7 +17,7 @@ Following resources have been created under the group for VM
 | ovm-ip     | Public IP address for conneting to the VM                                   |
 | ovm-nsg    | Firewall to restrict incoming/outgoing traffic       |
 | ovm616_z1  | Virtual network card for data transmission           |
-|az204ovm_OsDisk_1_b490b020a46f417bb059a3b1618f602f      | Assigned virtual disk                                |
+|az204ovm_OsDisk_1_b490b020a46f417bb059a3b1618f602f      | OS level disk which will be assigned onto the machine                               |
 | ovm-vnet   | Hosting virtual machine                              |
 
 
