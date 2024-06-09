@@ -23,7 +23,8 @@ Following resources have been created under the group for VM
 
 <details>
    <summary markdown="span" style="cursor:pointer;"><h2 style="margin:0;">Windows VM</h2></summary>
-  
+
+Desciption of the configuration of Window VM, Netork Settings and deployement of a dot NET Project
 
 <details>
    <summary markdown="span" style="cursor:pointer;"><h2 style="margin:0;">Setup IIS on VM</h2></summary>
