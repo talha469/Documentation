@@ -1,1 +1,1 @@
-# Documentation
+![App Screenshot](https://lh3.googleusercontent.com/Gzn87UteQMOjYLVJd5MzPtve0lVx2UZEfzuWUqQQXorj0rpZmwNA41sho_idBjx8n47mWwvQCReX-ZyN1fyUYw)
