@@ -80,7 +80,17 @@ dotnet sonarscanner end /d:sonar.token=<your_token>
 A detailed report will be shown on sonar UI opened in browser
 ![App Screenshot](https://github.com/talha469/Documentation/blob/main/Common/Media/sonarDetailedReport.png?raw=true)
 
+In case of some other language that require sonar cli,
+1) download cli zip file from the link provided by sonar upon creating project
+2) Extract 
+3) change port or url from downloadedSonarFolder/config/sonar-scanner
+4) Add bin folder path to the *Environment Variables* of the system
 
+   After this setup run the command in the root directory of the poroject
+   
+```bash
+sonar-scanner.bat -D"sonar.projectKey=PWPClientSide" -D"sonar.sources=." -D"sonar.host.url=http://localhost:9000" -D"sonar.token=<your_token>"
+```
 ## License
 
 MIT
