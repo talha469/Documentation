@@ -4,7 +4,7 @@ LLaMA3 (Large Language Model Meta AI 3) is a state-of-the-art language model dev
 
 ## Key Features
 
-- **Advanced Language Understanding**:  LLaMA3 excels in comprehending and generating human-like text, making it suitable for a wide range of applications from conversational agents to content creation.
+- **Advanced Language Understanding**: LLaMA3 excels in comprehending and generating human-like text, making it suitable for a wide range of applications from conversational agents to content creation.
 - **Scalability**: Leveraging a large-scale architecture, LLaMA3 offers impressive performance across diverse tasks, handling complex queries and generating coherent responses.
 - **Fine-Tuning Capabilities**: Easily adaptable to specific domains or tasks, allowing developers to fine-tune the model for specialized applications.
 - **Multilingual Support**: Supports multiple languages, providing robust language capabilities beyond English for global applications.
@@ -12,39 +12,53 @@ LLaMA3 (Large Language Model Meta AI 3) is a state-of-the-art language model dev
 
 ## Getting Started
 
-Llama is available paltforms like HuggingFace, MetaAI etc and In this guide we will go through the setup with Hugging Face
+LLaMA is available on platforms like Hugging Face and Meta AI. In this guide, we’ll walk you through the setup process using Hugging Face.
 
-1- Create an account on hugging face website https://huggingface.co/
+### 1. Create a Hugging Face Account
 
-2- Create a new token Profile Icon -> Settings -> Access Tokens -> +Create new token
+- Visit the [Hugging Face website](https://huggingface.co/) and create an account if you don’t already have one.
 
-3- Under user Permissions -> Repositories check "Read access to contents of all public gated repos you can access"  
+### 2. Fill Out the Community License Agreement
 
-Once you signed In, fill the form of "COMMUNITY LICENSE AGREEMENT" on the model page for example in our case 
-https://huggingface.co/meta-llama/Meta-Llama-3.1-8B-Instruct and wait for the approval
+- Navigate to the model page you’re interested in. For example, visit [Meta LLaMA 3.1 8B Instruct](https://huggingface.co/meta-llama/Meta-Llama-3.1-8B-Instruct).
+- Fill out the "COMMUNITY LICENSE AGREEMENT" form on the model page and submit it for approval.
 
-![App Screenshot](https://github.com/talha469/Documentation/blob/main/Common/Media/Llama3form.png?raw=true)
+  ![Community License Agreement](https://github.com/talha469/Documentation/blob/main/Common/Media/Llama3form.png?raw=true)
 
-You can see if the request has been approved or pending under 
+### 3. Generate an Access Token
 
-profile -> settings -> Gated Repositories 
+- After logging in, click on your **Profile Icon** in the top right corner.
+- Go to **Settings** > **Access Tokens**.
+- Click on **+ Create new token**.
+- Under **User Permissions**, check the option for **"Read access to contents of all public gated repos you can access"**.
 
-![App Screenshot](https://github.com/talha469/Documentation/blob/main/Common/Media/LLamaPending.png?raw=true)
+### 4. Check Your Access Status
 
-It might take 15 - 20 minutes
+- You can monitor the status of your request by going to **Profile** > **Settings** > **Gated Repositories**.
 
+  ![Access Status](https://github.com/talha469/Documentation/blob/main/Common/Media/LLamaPending.png?raw=true)
+
+- The approval process might take 15 to 20 minutes.
+
+Once approved, you'll be able to access the model and continue with the setup.
 
 ## Installation
 
-Please ensure that *git* is installed in your system, if not please download latest version https://git-scm.com/
+Ensure that *git* is installed on your system. If not, download the latest version from [git-scm.com](https://git-scm.com/).
 
-Open cmd in the directory where you want to clone the LLama repo
+1. **Open Command Prompt (cmd):**
+   - Navigate to the directory where you want to clone the LLaMA repo.
 
-```sh
-git clone https://<user_name>:<token>@huggingface.co/<model_name>
-```
-*user_name* can be found under profile on website
+2. **Clone the Repository:**
+   - Use the following command to clone the repository:
+     ```sh
+     git clone https://<user_name>:<token>@huggingface.co/<model_name>
+     ```
+   - Replace `<user_name>` with your Hugging Face username, `<token>` with the token you created earlier, and `<model_name>` with the name of the model you want to clone. You can find these details as follows:
+     - **user_name**: Your username can be found under your profile on the Hugging Face website.
+     - **token**: The token was created in a previous step.
+     - **model_name**: The model name can be found on the Hugging Face website under the repository you wish to clone.
 
-*token* is created in previous step
+## License
 
-*model_name* can be found on huggingface website
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
