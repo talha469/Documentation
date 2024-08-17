@@ -23,9 +23,13 @@ docker tag <your_image_name> <your_dockerhub_username>/<your_repository_name>:<y
 Replace the placeholders:
 
 `<your_image_name>:` The name of your local Docker image.
+
 `<your_dockerhub_username>:` Your Docker Hub username.
+
 `<your_repository_name>:` The name of the repository on Docker Hub where you want to upload the image.
+
 `<your_tag>:` A tag for your image (e.g., latest or v1.0).
+
 
 ### 2. Login to Docker
 
