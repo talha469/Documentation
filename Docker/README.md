@@ -18,7 +18,7 @@ This guide provides step-by-step instructions for uploading a Docker image to Do
 Before uploading your Docker image, you need to tag it with your Docker Hub repository name. Use the following command:
 
 ```bash
-docker tag <your_image_name> <your_dockerhub_username>/<your_repository_name>:<your_tag>
+docker tag <your_image_name>:version <your_dockerhub_username>/<your_repository_name>:<your_tag>
 ```
 Replace the placeholders:
 
